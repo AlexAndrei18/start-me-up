@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Start Me Up • Contact</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+  <style>
+    /* ================= HEADER ================= */
+    .box {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 7px;
+      margin-bottom: 20px;
+    }
+
+    body {
+      font-family: 'Times New Roman', serif;
+      font-size: 18px;
+      background: #fcfbf9;
+      color: #333;
+    }
+
+    table {
+      width: 100%;
+      font-family: 'Segoe Print', sans-serif;
+      border-collapse: collapse;
+      table-layout: fixed;
+      text-align: center;
+    }
+
+    th {
+      width: auto;
+    }
+
+    a.nav-link {
+      text-decoration: none;
+      color: #333;
+      transition: color 0.3s;
+      white-space: nowrap;
+    }
+
+    a.nav-link:hover {
+      color: #b0180a;
+    }
+
+    @media (max-width: 1024px) {
+      table {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      th {
+        flex: 1 1 30%;
+        padding: 8px;
+      }
+    }
+
+    /* ============== CONTACT PAGE ============== */
+    .contact-container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .contact-info {
+      flex: 1 1 350px;
+    }
+
+    .contact-info h2 {
+      margin-bottom: 10px;
+    }
+
+    .contact-info p {
+      font-size: 1.1em;
+      margin: 8px 0;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .social-links a img {
+      width: 36px;
+      height: 36px;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .social-links a img:hover {
+      transform: scale(1.15);
+    }
+
+    .map {
+      flex: 1 1 400px;
+      height: 350px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    footer {
+      text-align: center;
+      margin: 40px 0 20px 0;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="box">
+      <table>
+        <tr>
+          <th><a href="homepage.html" class="nav-link"><h3>🏠︎Homepage</h3></a></th>
+          <th><a href="galerie.html" class="nav-link"><h3>📽Galerie</h3></a></th>
+          <th><a href="evenimente.html" class="nav-link"><h3>🗒Evenimente</h3></a></th>
+          <th><a href="parteneri.html" class="nav-link"><h3>🗪Parteneri</h3></a></th>
+          <th><a href="contact.html" class="nav-link"><h3>✉︎Contact</h3></a></th>
+        </tr>
+      </table>
+    </div>
+  </header>
+
+  <!-- MAIN CONTACT SECTION -->
+  <main>
+    <section class="contact-container">
+      <!-- Informații de contact -->
+      <div class="contact-info">
+        <h2>Date de contact</h2>
+        <p><strong>Email:</strong> <a href="mailto:startmeup@gmail.com">startmeup@gmail.com</a></p>
+        <p><strong>Telefon:</strong> <a href="tel:+40712345678">+40 712 345 678</a></p>
+        <p><strong>Locație:</strong> Ramada Plaza by Wyndham București, Bulevardul Poligrafiei 3-5, București 013704, România</p>
+
+        <div class="social-links">
+          <a href="https://www.facebook.com/" target="_blank" title="Facebook">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" title="Instagram">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Hartă Google Maps - Hotel Ramada București -->
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.597996215258!2d26.07614757646401!3d44.46089017098364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff49271e0b81%3A0xccc51c7a912ad4b7!2sRamada%20Plaza%20by%20Wyndham%20Bucharest!5e0!3m2!1sro!2sro!4v1730286219470!5m2!1sro!2sro"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    
+  </footer>
+</body>
+</html>
