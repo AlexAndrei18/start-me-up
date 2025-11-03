@@ -77,6 +77,7 @@
 
       if (res.ok) {
         alert("✅ Participant adăugat cu succes!");
+        console.log(body);
         e.target.reset();
       } else {
         const msg = await res.text();

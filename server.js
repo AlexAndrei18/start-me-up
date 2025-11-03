@@ -37,7 +37,7 @@ app.get("/reset", async (req, res) => {
 app.post("/api/register", async (req, res) => {
   try {
     const { nume, prenume, nume_echipa, facultate, an, email, telefon, idee } = req.body;
-
+    
     if (!nume || !prenume || !nume_echipa || !facultate || !an || !email || !telefon || !idee)
       return res.status(400).send("Toate câmpurile sunt obligatorii.");
 
