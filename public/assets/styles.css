@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: 'Archivo', sans-serif;
+}
+
+.header-box {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 7px;
+    }
+.header-box table {
+      width: 100%;
+      font-family: 'Segoe Print', sans-serif;
+      border-collapse: collapse;
+      table-layout: fixed;
+      text-align: center;
+    }
+.header-box th {
+      width: auto;
+    }
+
+a.nav-link {
+      text-decoration: none;
+      color: #333;
+      transition: color 0.3s;
+      white-space: nowrap;
+    }
+
+a.nav-link:hover {
+      color: #b0180a;
+    }
+
+@media (max-width: 1024px) {
+    table {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+}
