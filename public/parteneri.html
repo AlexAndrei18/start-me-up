@@ -1,1 +1,237 @@
-kokokolo
+<!DOCTYPE html>
+<html lang="ro">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+
+  <meta charset = "UTF-8">
+  <title>Parteneri</title>
+
+  <style>
+    .box {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 7px;
+    }
+
+    body {
+      font-family: 'Times New Roman', serif;
+      font-size: 18px;
+      background: #fcfbf9;
+      color: #333;
+      text-align: center;
+    }
+     img.a {
+      height: 25%;
+      width: 25%;
+    }
+
+    table {
+      width: 100%;
+      font-family: 'Segoe Print', sans-serif;
+      border-collapse: collapse;
+      table-layout: fixed;
+      text-align: center;
+    }
+
+    th {
+      width: auto;
+    }
+
+    a.nav-link {
+      text-decoration: none;
+      color: #333;
+      transition: color 0.3s;
+      white-space: nowrap;
+    }
+
+    a.nav-link:hover {
+      color: #b0180a;
+    }
+
+    @media (max-width: 1024px) {
+      table {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      th {
+        flex: 1 1 30%;
+        padding: 8px;
+      }
+
+      img.a {
+        width: 15%;
+        height: auto;
+      }
+    }
+
+    h1{
+      font-size: 50px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+      text-align: center;
+      display:inline-block;
+    }
+    h1:hover {
+      color: #a94e3c;
+      transition: color 0.5s;
+    }
+
+    .partener {
+      display: flex;
+      align-items: center; 
+      gap: 30px; 
+      background-color: #e9dec9;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0  10px rgba(0,0,0,0.1);
+      width: 75%;
+      margin: 30px auto
+      
+    }
+    .partener img {
+      width: 150px;
+      height: auto;
+      border-radius: 10px;
+    }
+    .partener .info {
+      flex: 1; 
+      padding-right: 30px;
+      padding-left: 30px;
+      word-wrap: break-word;
+      text-align: center;
+    }
+    .partener .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 10px;
+      background-color: #b0180a;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+    
+    }
+    @media (max-width: 768px) {
+  .partener {
+    flex-direction: column; 
+    text-align: center;
+  }
+
+  .partener img {
+    width: 50%; 
+  }
+}
+ h2{
+      font-size: 30px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+      text-align: center;
+      display:inline-block;
+    }
+    h2:hover {
+      color: #a94e3c;
+      transition: color 0.5s;
+    }
+    .parteneri-food-media{
+      display: flex;               
+      justify-content: center;     
+      align-items: center;         
+      gap: 40px;                  
+      flex-wrap: wrap;             
+    
+    }
+    .parteneri-food-media img {
+      max-width: 150px;  
+      height: 150px;
+      border-radius: 100%;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="box">
+
+
+      <table>
+        <tr>
+          <th><a href="homepage.html" class="nav-link">
+              <h3>🏠︎Homepage</h3>
+            </a></th>
+          <th><a href="galerie.html" class="nav-link">
+              <h3>📽Galerie</h3>
+            </a></th>
+          <th><a href="evenimente.html" class="nav-link">
+              <h3>🗒Evenimente</h3>
+            </a></th>
+          <th><a href="parteneri.html" class="nav-link">
+              <h3>🗪Parteneri</h3>
+            </a></th>
+          <th><a href="contact.html" class="nav-link">
+              <h3>✉︎Contact</h3>
+            </a></th>
+        </tr>
+
+      </table>
+    </div>
+  </header>
+
+   <h1>Parteneri</h1>
+
+   <div class="partener">
+  <img src="./assets/download.jpeg" alt="Logo Partener 1">
+  <div class="info">
+    <h3>Nume Partener 1</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+    <a href="https://paginaoficiala.ro" target="_blank" class="btn">Vezi site</a>
+  </div>
+</div>
+
+ <div class="partener">
+  <img src="./assets/467bc0b4f34db027fe7da32e70c8d649.jpg" alt="Logo Partener 2">
+  <div class="info">
+    <h3>Nume Partener 2</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+    <a href="https://paginaoficiala.ro" target="_blank" class="btn">Vezi site</a>
+  </div>
+</div>
+
+<div class="partener">
+  <img src="./assets/467bc0b4f34db027fe7da32e70c8d649.jpg" alt="Logo Partener 3">
+  <div class="info">
+    <h3>Nume Partener 3</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+    <a href="https://paginaoficiala.ro" target="_blank" class="btn">Vezi site</a>
+  </div>
+</div>
+
+<div class="partener">
+  <img src="./assets/467bc0b4f34db027fe7da32e70c8d649.jpg" alt="Logo Partener 4">
+  <div class="info">
+    <h3>Nume Partener 4</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+    <a href="https://paginaoficiala.ro" target="_blank" class="btn">Vezi site</a>
+  </div>
+</div>
+
+<h2>Food & media partners</h2>
+
+<div class="parteneri-food-media">
+  <img src="./assets/download.jpeg" alt="logo1">
+  <img src="./assets/467bc0b4f34db027fe7da32e70c8d649.jpg" alt="logo2">
+  <img src="./assets/download.jpeg" alt="logo3">
+  <img src="./assets/467bc0b4f34db027fe7da32e70c8d649.jpg" alt="logo4">
+</div>
+
+</body>
