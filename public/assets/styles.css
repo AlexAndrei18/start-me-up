@@ -45,7 +45,6 @@ a.nav-link:hover {
   height:40px;
   right:5px;
   bottom:10px;
-  position:fixed;
   top:89%;
   animation-name: appear;
   animation-timeline: scroll(y); 
