@@ -64,8 +64,9 @@ html{
 
 .h{
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Bebas Neue", sans-serif;
     color:rgb(73, 62, 62);
+    font-size:25px
 }
 
 #box{
@@ -115,7 +116,7 @@ html{
 #sec3{
   margin-top:0;
   padding:0;
-  height: 840px;
+  height: 100%;
   width:100%;
   background: linear-gradient(135deg, #e4e2e0, rgb(173, 126, 105)  );
   border-radius:2px;
@@ -130,18 +131,22 @@ html{
   font-size:small;
   margin: 10px;
   text-align: center;
+  font-family: "Oswald", sans-serif;
+  padding:0;
 }
 
 #text{
   padding-top: 15px;
   color:rgb(223, 214, 214);
+  font-family:"Bebas Neue", sans-serif;
+  font-size:25px;
 }
 
 .b1{
     cursor: pointer;
     background-color: rgb(255, 255, 255);
     border-color: #b0180a;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Oswald", sans-serif;
     border-radius: 3px;
     padding: 6px;
     gap: 8px;
@@ -166,7 +171,7 @@ html{
      cursor: pointer;
     background-color: rgb(255, 255, 255);
     border-color: #b0180a;
-    font-family:'Times New Roman', Times, serif;
+    font-family:"Oswald", sans-serif;
     border-radius: 3px;
     box-shadow:rgba(29, 53, 142, 0.1);
     padding: 5px;
@@ -175,8 +180,8 @@ html{
 }
 
 .b2:hover{
-    box-shadow: 0 3px 12px 0 rgba(189, 159, 24, 0.6);
-    border-color:rgb(164, 108, 81); 
+    box-shadow: 0 3px 12px 0 rgb(156, 145, 145);
+    border-color:cadetblue; 
 }
 
 
