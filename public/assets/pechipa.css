@@ -65,6 +65,7 @@ html{
 .h{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    color:rgb(73, 62, 62);
 }
 
 #box{
@@ -77,19 +78,26 @@ html{
 
 #teampic{
   height:220px;
-  width:370px;
+  width:360px;
   margin-left: auto;
   margin-right:auto;
   display:block;
   box-shadow: 0 5px 18px 0 rgba(6, 7, 12, 0.6);
   cursor:pointer;
+  padding:0;
 }
+
+#teampic:hover{
+   border-color:cadetblue;
+   box-shadow: 0 3px 12px 0 rgba(189, 159, 24, 0.6);
+}
+
 #sec1{
  margin:0;
   padding:0;
   height:300px;
   width:100%;
-  background-color:rgb(105, 21, 17); 
+  background-color:rgb(173, 126, 105); 
   border-radius: 2px;
   box-shadow: 0 5px 18px 0 rgba(9, 19, 66, 0.6);
 }
@@ -99,7 +107,7 @@ html{
   padding:0;
   height:180px;
   width:100%;
-  background-color:rgb(105, 21, 17); 
+  background-color:rgb(173, 126, 105); 
   border-radius: 2px;
   box-shadow: 0 5px 18px 0 rgba(9, 19, 66, 0.6);
 }
@@ -109,7 +117,7 @@ html{
   padding:0;
   height: 840px;
   width:100%;
-  background: linear-gradient(135deg, #e4e2e0, #d69935 );
+  background: linear-gradient(135deg, #e4e2e0, rgb(173, 126, 105)  );
   border-radius:2px;
 }
 
@@ -118,7 +126,7 @@ html{
 }
 
 #para{
-  color:rgb(210, 178, 178);
+  color:rgb(223, 214, 214);
   font-size:small;
   margin: 10px;
   text-align: center;
@@ -126,7 +134,7 @@ html{
 
 #text{
   padding-top: 15px;
-  color:rgb(210, 178, 178);
+  color:rgb(223, 214, 214);
 }
 
 .b1{
@@ -140,9 +148,9 @@ html{
     width: 150px;
 }
 .b1:hover{
-  border-color:cadetblue;
+  border-color:rgb(255, 166, 0);
   font-style:italic;
-  box-shadow: 0 3px 12px 0 rgba(15, 36, 125, 0.6);
+  box-shadow: 0 3px 12px 0 rgba(189, 159, 24, 0.6);
 }
 
 .container{
@@ -167,8 +175,8 @@ html{
 }
 
 .b2:hover{
-    border-color:cadetblue;
-    box-shadow: 0 3px 12px 0 rgba(15, 36, 125, 0.6);
+    box-shadow: 0 3px 12px 0 rgba(189, 159, 24, 0.6);
+    border-color:rgb(164, 108, 81); 
 }
 
 
