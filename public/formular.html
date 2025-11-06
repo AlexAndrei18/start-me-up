@@ -12,7 +12,7 @@
     <div class="box">
       <table>
         <tr>
-          <th><a href="homepage.html" class="nav-link"><h3>🏠︎Homepage</h3></a></th>
+          <th><a href="index.html" class="nav-link"><h3>🏠︎Homepage</h3></a></th>
           <th><a href="pechipa.html" class="nav-link"><h3>📽Galerie</h3></a></th>
           <th><a href="evenimente.html" class="nav-link"><h3>🗒Evenimente</h3></a></th>
           <th><a href="parteneri.html" class="nav-link"><h3>💬Parteneri</h3></a></th>
@@ -76,12 +76,12 @@
       });
 
       if (res.ok) {
-        alert("✅ Participant adăugat cu succes!");
+        alert("Participant adăugat cu succes!");
         console.log(body);
         e.target.reset();
       } else {
         const msg = await res.text();
-        alert("❌ Eroare: " + msg);
+        alert("Eroare: " + msg);
       }
     });
   </script>
